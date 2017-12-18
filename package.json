@@ -19,5 +19,9 @@
     "dotenv": "^4.0.0",
     "node-env-run": "^2.0.1",
     "twilio": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philnash/bulk-sms-alerts.git"
   }
 }
