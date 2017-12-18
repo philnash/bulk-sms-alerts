@@ -1,0 +1,23 @@
+{
+  "name": "ice-cream-alerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "firstscoop": "nodenv firstscoop.js",
+    "multipack": "nodenv multipack.js",
+    "99flake": "nodenv 99flake.js"
+  },
+  "keywords": [
+    "sms",
+    "twilio",
+    "bulk-sms"
+  ],
+  "author": "Phil Nash <philnash@twilio.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-env-run": "^2.0.1",
+    "twilio": "^3.11.0"
+  }
+}
