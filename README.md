@@ -2,6 +2,8 @@
 
 This repo is an example of sending one, a few and many SMS messages using the Twilio API.
 
+You can read about how this code all works in the [Ultimate guide to sending bulk SMS with Twilio and Node.js](https://www.twilio.com/blog/2017/12/send-bulk-sms-twilio-node-js.html).
+
 ## Running the code
 
 Clone the repo, then change into the directory:
