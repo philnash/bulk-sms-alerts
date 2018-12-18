@@ -18,7 +18,7 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "node-env-run": "^2.0.1",
-    "twilio": "^3.11.0"
+    "twilio": "^3.25.0"
   },
   "repository": {
     "type": "git",
