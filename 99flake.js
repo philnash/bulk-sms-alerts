@@ -11,12 +11,12 @@ const bindings = numbers.map(number => {
   return JSON.stringify({ binding_type: 'sms', address: number });
 });
 
-notification = service.notifications
+service.notifications
   .create({
     toBinding: bindings,
     body: body
   })
-  .then(() => {
+  .then(notification => {
     console.log(notification);
   })
   .catch(err => {
