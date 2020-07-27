@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CSV Upload</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bulk SMS by CSV upload</h1>
+    </header>
+
+    <main>
+      <form action="/messages" method="POST" enctype="multipart/form-data">
+        <div class="form-row">
+          <label for="csv-upload">Upload CSV</label>
+          <input type="file" name="csv-upload" id="csv-upload" />
+        </div>
+        <div class="form-row">
+          <label for="body">Message</label>
+          <textarea name="body" id="body"></textarea>
+        </div>
+        <div class="form-row">
+          <button type="submit">Upload and send</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        Built with 📨 by <a href="https://twitter.com/philnash">philnash</a>
+      </p>
+    </footer>
+  </body>
+</html>

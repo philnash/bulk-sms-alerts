@@ -6,7 +6,8 @@
   "scripts": {
     "firstscoop": "nodenv firstscoop.js",
     "multipack": "nodenv multipack.js",
-    "99flake": "nodenv 99flake.js"
+    "99flake": "nodenv 99flake.js",
+    "server": "nodenv csv-upload/index.js --exec nodemon | pino-colada"
   },
   "keywords": [
     "sms",
@@ -16,12 +17,21 @@
   "author": "Phil Nash <philnash@twilio.com>",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^4.0.0",
-    "node-env-run": "^2.0.1",
-    "twilio": "^3.25.0"
+    "csv-parse": "^4.11.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^5.0.0",
+    "formidable": "^1.2.2",
+    "node-env-run": "^3.0.2",
+    "pino": "^6.4.1",
+    "twilio": "^3.48.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/philnash/bulk-sms-alerts.git"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "pino-colada": "^2.0.1"
   }
 }

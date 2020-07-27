@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+label,
+input,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1em;
+}
+
+header {
+  background: #f0293e;
+  color: #fff;
+  text-align: center;
+}
+
+main {
+  background: #ffffff;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding: 2em;
+  width: 100%;
+  max-width: 600px;
+}
+.form-row {
+  padding: 1em 0;
+}
+
+form label {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 0.5em;
+}
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+}
+
+form textarea {
+  border-radius: 6px;
+  border: 1px solid #333e5a;
+  padding: 0.5em;
+  height: 4em;
+}
+form textarea:focus {
+  border-color: #1a202f;
+}
+
+form button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: #333e5a;
+  color: #fff;
+  font-size: 2em;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+form button:hover {
+  background: #1a202f;
+}
+
+footer {
+  background: #333e5a;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+}
